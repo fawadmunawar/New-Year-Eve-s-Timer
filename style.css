@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/Timer/snow.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info p{
+    padding: 20px;
+    font-size: 4rem;
+}
+.info span{
+    margin-left: 25px;
+}
+.container, .heading{
+    margin-top: 60px;
+}
+.seconds{
+    color: gray;
+}
